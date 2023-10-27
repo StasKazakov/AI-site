@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+    background: #0E1225;
+}
+
+
+header {
+    display: flex;
+    padding: 36px 360px 0px 360px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center; 
+}
+logo {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+h1 {
+    width: 112px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Albert Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -6px;
+}
+
+.box {
+    display: flex;
+    width: 100px;
+    height: 84px;
+    padding: 24.61px 0px 24.61px 1078.77px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(68, 76, 247, 0.13) 30%, rgba(0, 0, 0, 0.00) 70%), radial-gradient(70.71% 70.71% at 50% 50%, rgba(138, 93, 255, 0.13) 0%, rgba(0, 0, 0, 0.00) 30%);
+}
+
+.text-typing{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    position: absolute;
+    text-align:center;
+    font-family: Open Sans;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+button {
+    display: flex;
+}
+
+.main_button {
+    width: 345px;
+    height: 105px;
+    border-radius: 30px;
+    background: linear-gradient(109deg, #8A5DFF 0%, #444CF7 100%);
+    color:#FFF;
+    font-family: Open Sans;
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute; 
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border: 2px solid #0E1225;
+}
+
+.txt {
+    margin-top: -7px;
+}
+
+.main_button:hover {
+    background: linear-gradient(109deg, #444CF7 0%, #8A5DFF 100%); /* Новый цвет при наведении */
+}
+
+#animated-image {
+    width: 70px; 
+    height: 70px; 
+    margin-right: 5px;
+    margin-top: 15px; 
+}
+
+.ball {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 60%; 
+    left: 5%;
+    flex-shrink: 0;
+    background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(68, 76, 247, 0.13) 30%, rgba(0, 0, 0, 0.00) 70%), radial-gradient(70.71% 70.71% at 50% 50%, rgba(138, 93, 255, 0.13) 20%, rgba(0, 0, 0, 0.00) 70%);
+    opacity: 0.5;
+}
+
+.comp {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    position: absolute;
+    top: 45%; 
+    left: 70%;
+}
+
+.screen2 {
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 30px;
+}
+
+.message {
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+.text {
+    width: 560px;
+    font-family: Open Sans;
+    color: #FFF;
+    font-size: 25px;
+    margin-top: -360px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.str {
+    line-height: 0.6;
+}
+
+.screen3 {
+    position: absolute;
+    margin-top: 980px;
+    margin-left: 80px;
+}
+
+.title {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 60px;
+}
+
+.benefits, .benefits2 {
+    margin: 90px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.benefit1, .benefit2, .benefit3, .benefit4, .benefit5, .benefit6 {
+    width: 380px;
+    height: 514px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border-top: 1px solid rgba(43, 42, 93, 0.84);
+    border-right: 1px solid rgba(43, 42, 93, 0.84);
+    background: rgba(125, 154, 255, 0.07);
+    box-shadow: 0px 5px 30px 0px rgba(0, 10, 20, 0.03);
+    margin: 10px;
+}
+
+.benefits {
+    margin-top: 30px;
+}
+
+.rectangle_back {
+    width: 319px;
+    height: 240px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: rgba(125, 154, 255, 0.07);
+    margin: 30px auto;
+}
+
+.icon1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.dollar {
+    display: flex;
+    width: 112px;
+    height: 176px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: Albert Sans;
+    font-size: 188px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px; /* 11.17% */
+    background: linear-gradient(170deg, #444CF7 -15.92%, #825CFF 118.24%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: auto;
+    padding: 30px;
+    margin-right: -20px;
+}
+
+.arrow {
+    width: 98.727px;
+    height: 154px;
+    flex-shrink: 0;
+    fill: linear-gradient(180deg, #494DF8 0%, #8A5DFF 50%);
+    margin: auto;
+    padding: 30px;
+    margin-left: -20px;
+}
+
+.benefits2 {
+    margin-top: -80px;
+}

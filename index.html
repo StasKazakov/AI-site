@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI bots</title>
+    <link rel="stylesheet" type="text/css" href="styles\styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img class="logo__img" src="images\logo.webp" alt="">
+            <h1 class="logo__title">inside</h1>
+            <div class="box"></div>     
+        </div>
+    </header>
+    <div id="typed-strings">
+        <span>Сможет ли искусственный интеллект заменить людей?</span>
+        <span>Мы уже делаем ботов, которые полностью заменяют сотрудников!</span>
+    </div>
+    <div class="text-typing">
+        <span id="typed"></span>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    <script>
+        let typed = new Typed('#typed', { 
+            stringsElement: '#typed-strings', 
+            typeSpeed: 100, 
+            startDelay: 500, 
+            backSpeed: 25, 
+            loop: true 
+        });
+    </script>
+    <button class="main_button">
+        <div class="animation-container">
+            <img id="animated-image" src="1.webp" alt="Image">
+          </div>
+          
+          <script>
+            const images = ["1.webp", '2.webp', '3.webp', '4.webp'];
+            const imgElement = document.getElementById('animated-image');
+            let currentIndex = 0;
+          
+            function changeImage() {
+              imgElement.src = images[currentIndex];
+              currentIndex = (currentIndex + 1) % images.length;
+            }
+          
+            setInterval(changeImage, 1000); // Менять картинку каждые 2 секунды
+          </script>
+        <div class="txt">Начать</div>
+    </button>
+    <div class="ball"></div>
+    <div class="comp"><img src="images\comp.webp" alt=""></div>
+
+    <div class="screen2">
+        <div class="message">
+            <svg xmlns="http://www.w3.org/2000/svg" width="640" height="460" viewBox="0 0 1028 486" fill="none">
+                <path d="M10 5H5V10V378V383H10H69V464V474.756L77.223 467.823L177.827 383H1018H1023V378V10V5H1018H10Z" stroke="#494DF8" stroke-width="10"/>
+                </svg>
+                <div class="text">
+                    <p>84% клиентов хотят чтобы на их вопросы отвечали в любое время в течение 1 минуты.<br></p>
+                    <div class="str"><br></div>
+                    <p>Сейчас для вашего бизнеса это проблема или возможность?</p>
+                </div>
+        </div>
+    </div>
+    <div class="screen3">
+        <div class="title">
+            <h2>Чат-боты с искусственным интеллектом стали прорывной технологией для бизнеса в 2023 году потому что:</h2>
+        </div>
+        <div class="benefits">
+            <div class="benefit1">
+                <div class="rectangle_back">
+                    <div class="icon1">
+                        <div class="dollar">$</div>
+                        <div class="arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="154" viewBox="0 0 100 154" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M71 0H28V71.5H0.636536L50 154L99.3634 71.5H71V0Z" fill="url(#paint0_linear_94_114)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_94_114" x1="49.5" y1="0" x2="49.5" y2="77" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#494DF8"/>
+                                <stop offset="1" stop-color="#8A5DFF"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="benefit2">
+                <div class="rectangle_back">
+            
+                </div>
+            </div>
+            <div class="benefit3">
+                <div class="rectangle_back"></div>
+            </div>
+        </div>
+        <div class="benefits2">
+            <div class="benefit4">
+                <div class="rectangle_back"></div>
+            </div>
+            <div class="benefit5">
+                <div class="rectangle_back"></div>
+            </div>
+            <div class="benefit6">
+                <div class="rectangle_back"></div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
