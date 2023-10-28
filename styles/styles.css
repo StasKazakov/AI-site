@@ -383,3 +383,38 @@ h2 {
     margin: auto;
     padding: 15px;
 }
+
+.b_title {
+    display: flex;
+    width: 315px;
+    height: 33px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #F6F6F9;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px; /* 110% */
+    letter-spacing: -1.5px;
+    margin-left: 35px;
+    margin-top: -10px;
+}
+
+.b_text {
+    display: flex;
+    width: 318px;
+    height: 156px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #ACACD0;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 35px;
+    margin-top: 7px;
+}
