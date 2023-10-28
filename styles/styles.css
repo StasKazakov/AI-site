@@ -106,7 +106,7 @@ button {
     margin-top: 15px; 
 }
 
-.ball {
+.ball, .ball2 {
     width: 400px;
     height: 400px;
     position: absolute;
@@ -132,12 +132,12 @@ button {
     margin-left: 30px;
 }
 
-.message {
+.massage {
     margin-left: 50px;
     margin-top: -50px;
 }
 
-.text {
+.text, .text2 {
     width: 560px;
     font-family: Open Sans;
     color: #FFF;
@@ -417,4 +417,26 @@ h2 {
     line-height: 30px;
     margin-left: 35px;
     margin-top: 7px;
+}
+
+.screen4 {
+    position: absolute;
+    margin-top: 2250px;
+    margin-left: 80px;
+}
+.massage3 {
+    transform: scaleX(-1);
+    margin-left: 740px;
+}
+
+.text2 {
+    transform: scaleX(-1);
+    margin-top: -250px;
+    font-size: 30px;
+    margin-left: -30px;
+}
+
+.ball2 {
+    margin-top: -150px;
+    margin-left: 70px;
 }
