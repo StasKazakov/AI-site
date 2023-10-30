@@ -25,7 +25,8 @@ header {
 
 .logo {
     display: flex;
-    align-items: center; 
+    align-items: center;
+    margin-left: 100px; 
 }
 logo {
     width: 60px;
@@ -68,9 +69,6 @@ h1 {
     margin-left: 10%;
 }
 
-button {
-    display: flex;
-}
 
 .main_button {
     width: 345px;
@@ -89,6 +87,7 @@ button {
     justify-content: center; 
     align-items: center;
     border: 2px solid #0E1225;
+    display: flex;
 }
 
 .txt {
@@ -106,11 +105,10 @@ button {
     margin-top: 15px; 
 }
 
-.ball, .ball2 {
+.ball, .ball2, .ball3 {
     width: 400px;
     height: 400px;
     position: absolute;
-    top: 60%; 
     left: 5%;
     flex-shrink: 0;
     background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(68, 76, 247, 0.13) 30%, rgba(0, 0, 0, 0.00) 70%), radial-gradient(70.71% 70.71% at 50% 50%, rgba(138, 93, 255, 0.13) 20%, rgba(0, 0, 0, 0.00) 70%);
@@ -156,6 +154,11 @@ button {
     position: absolute;
     margin-top: 980px;
     margin-left: 80px;
+}
+
+.ball2 {
+    margin-top: -950px;
+    margin-left: 950px;
 }
 
 .title {
@@ -436,7 +439,109 @@ h2 {
     margin-left: -30px;
 }
 
-.ball2 {
+.ball3 {
     margin-top: -150px;
     margin-left: 70px;
 }
+
+.screen5 {
+    position: absolute;
+    margin-top: 2650px;
+    
+}
+
+.baner {
+    width: 1160px;
+    height: 700px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: linear-gradient(114deg, #8A5DFF 0%, #444CF7 100%);
+    display: flex;
+    margin-left: 200px; 
+}
+
+.baner_text {
+    display: flex;
+    width: 500px;
+    height: 619px;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.99);
+    font-family: Open Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    margin-top: -50px;
+    margin-left: 80px;
+}
+.button2 {
+    width: 250px;
+    height: 60px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1); 
+    color: #FFF; 
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: Open Sans;
+    font-size: 40px;
+    margin-top: 500px;
+    margin-left: -370px;
+    font-weight: 600; 
+}
+
+.phone {
+    width: 320px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: #FFF;
+    margin-left: 270px;
+    margin-top: 40px;
+}
+
+.mass1, .mass2, .mass3, .mass4 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 10px;
+    line-height: 24px;
+}
+
+.mass1, .mass3 {
+    width: 240px;
+    border-radius: 0px 30px 30px 30px;
+    background: rgba(0, 10, 252, 0.80);
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.mass2, .mass4 {
+    width: 240px;
+    border-radius: 30px 0px 30px 30px;
+    background: #E8129F;;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.mass1 {
+    margin-top: 120px;
+}
+
+
+
+
+
+
+
+
+
